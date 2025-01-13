@@ -59,7 +59,7 @@ const AddPizzaForm: FC<AddPizzaFormProps> = ({addPizza}) =>{
           
             <input name="price" type="text" placeholder='Стоимость' onChange={handleChange} value={newPizza.price}/>
           
-            <input name="img" type="text" placeholder='Изображение' onChange={handleChange} value={newPizza.img}/>
+            <input name="img" type="text" placeholder='Изображение (pizza-1.jpg)' onChange={handleChange} value={newPizza.img}/>
          
             <button type="submit">
             + Добавить в меню
